@@ -3,7 +3,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-1"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-1/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -18,7 +18,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-2"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-2/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -33,7 +33,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-3"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-3/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -48,7 +48,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-4"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-4/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -63,7 +63,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-5"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-5/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -78,7 +78,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-6"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-6/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -93,7 +93,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-7"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-7/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -108,7 +108,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-8"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-8/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -123,7 +123,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-9"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-9/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -138,7 +138,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-10"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-10/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -153,7 +153,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-11"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-11/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -168,7 +168,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-12"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-12/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -183,7 +183,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-13"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-13/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -198,7 +198,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-14"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-14/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -213,7 +213,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-15"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-15/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -228,7 +228,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-16"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-16/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -243,7 +243,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-17"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-17/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -258,7 +258,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-18"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-18/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -273,7 +273,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-19"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-19/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -288,7 +288,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-20"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-20/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -303,7 +303,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-21"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-21/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -318,7 +318,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-22"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-22/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -333,7 +333,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-23"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-23/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -348,7 +348,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-24"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-24/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -363,7 +363,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-25"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-25/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -378,7 +378,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-26"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-26/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -393,7 +393,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-27"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-27/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -408,7 +408,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-28"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-28/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -423,7 +423,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-29"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-29/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -438,7 +438,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-30"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-30/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -453,7 +453,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-31"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-31/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -468,7 +468,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-32"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-32/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -483,7 +483,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-33"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-33/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -498,7 +498,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-34"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-34/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -513,7 +513,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-35"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-35/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -528,7 +528,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-36"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-36/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -543,7 +543,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-37"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-37/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -558,7 +558,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-38"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-38/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -573,7 +573,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-39"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-39/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -588,7 +588,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-40"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-40/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -603,7 +603,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-41"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-41/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -618,7 +618,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-42"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-42/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -633,7 +633,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-43"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-43/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -648,7 +648,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-44"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-44/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -663,7 +663,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-45"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-45/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -678,7 +678,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-46"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-46/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -693,7 +693,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-47"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-47/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -708,7 +708,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-48"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-48/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -723,7 +723,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-49"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-49/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -738,7 +738,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-50"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-50/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -753,7 +753,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-51"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-51/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -768,7 +768,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-52"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-52/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -783,7 +783,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-53"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-53/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -798,7 +798,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-54"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-54/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -813,7 +813,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-55"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-55/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -828,7 +828,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-56"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-56/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -843,7 +843,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-57"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-57/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -858,7 +858,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-58"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-58/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -873,7 +873,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-59"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-59/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -888,7 +888,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-60"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-60/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -903,7 +903,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-61"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-61/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -918,7 +918,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-62"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-62/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -933,7 +933,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-63"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-63/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -948,7 +948,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-64"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-64/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -963,7 +963,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-65"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-65/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -978,7 +978,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-66"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-66/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -993,7 +993,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-67"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-67/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1008,7 +1008,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-68"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-68/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1023,7 +1023,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-69"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-69/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1038,7 +1038,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-70"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-70/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1053,7 +1053,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-71"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-71/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1068,7 +1068,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-72"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-72/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1083,7 +1083,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-73"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-73/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1098,7 +1098,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-74"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-74/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1113,7 +1113,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-75"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-75/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1128,7 +1128,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-76"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-76/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1143,7 +1143,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-77"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-77/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1158,7 +1158,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-78"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-78/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1173,7 +1173,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-79"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-79/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1188,7 +1188,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-80"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-80/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1203,7 +1203,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-81"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-81/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1218,7 +1218,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-82"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-82/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1233,7 +1233,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-83"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-83/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1248,7 +1248,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-84"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-84/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1263,7 +1263,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-85"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-85/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1278,7 +1278,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-86"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-86/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1293,7 +1293,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-87"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-87/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1308,7 +1308,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-88"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-88/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1323,7 +1323,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-89"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-89/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1338,7 +1338,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-90"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-90/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1353,7 +1353,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-91"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-91/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1368,7 +1368,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-92"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-92/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1383,7 +1383,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-93"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-93/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1398,7 +1398,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-94"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-94/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1413,7 +1413,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-95"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-95/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1428,7 +1428,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-96"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-96/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1443,7 +1443,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-97"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-97/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1458,7 +1458,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-98"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-98/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1473,7 +1473,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-99"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-99/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1488,7 +1488,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-100"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-100/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1503,7 +1503,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-101"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-101/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1518,7 +1518,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-102"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-102/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1533,7 +1533,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-103"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-103/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1548,7 +1548,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-104"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-104/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1563,7 +1563,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-105"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-105/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1578,7 +1578,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-106"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-106/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1593,7 +1593,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-107"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-107/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1608,7 +1608,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-108"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-108/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1623,7 +1623,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-109"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-109/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1638,7 +1638,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-110"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-110/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1653,7 +1653,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-111"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-111/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1668,7 +1668,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-112"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-112/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1683,7 +1683,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-113"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-113/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1698,7 +1698,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-114"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-114/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1713,7 +1713,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-115"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-115/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1728,7 +1728,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-116"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-116/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1743,7 +1743,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-117"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-117/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1758,7 +1758,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-118"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-118/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1773,7 +1773,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-119"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-119/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1788,7 +1788,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-120"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-120/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1803,7 +1803,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-121"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-121/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1818,7 +1818,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-122"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-122/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1833,7 +1833,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-123"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-123/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1848,7 +1848,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-124"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-124/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1863,7 +1863,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-125"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-125/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1878,7 +1878,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-126"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-126/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1893,7 +1893,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-127"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-127/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1908,7 +1908,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-128"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-128/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1923,7 +1923,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-129"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-129/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1938,7 +1938,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-130"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-130/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1953,7 +1953,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-131"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-131/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1968,7 +1968,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-132"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-132/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1983,7 +1983,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-133"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-133/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -1998,7 +1998,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-134"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-134/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2013,7 +2013,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-135"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-135/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2028,7 +2028,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-136"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-136/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2043,7 +2043,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-137"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-137/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2058,7 +2058,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-138"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-138/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2073,7 +2073,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-139"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-139/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2088,7 +2088,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-140"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-140/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2103,7 +2103,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-141"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-141/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2118,7 +2118,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-142"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-142/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2133,7 +2133,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-143"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-143/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2148,7 +2148,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-144"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-144/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2163,7 +2163,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-145"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-145/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2178,7 +2178,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-146"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-146/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2193,7 +2193,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-147"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-147/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2208,7 +2208,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-148"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-148/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2223,7 +2223,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-149"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-149/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2238,7 +2238,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-150"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-150/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2253,7 +2253,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-151"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-151/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2268,7 +2268,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-152"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-152/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2283,7 +2283,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-153"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-153/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2298,7 +2298,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-154"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-154/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2313,7 +2313,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-155"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-155/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2328,7 +2328,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-156"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-156/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2343,7 +2343,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-157"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-157/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2358,7 +2358,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-158"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-158/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2373,7 +2373,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-159"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-159/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2388,7 +2388,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-160"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-160/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2403,7 +2403,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-161"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-161/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2418,7 +2418,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-162"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-162/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2433,7 +2433,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-163"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-163/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2448,7 +2448,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-164"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-164/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2463,7 +2463,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-165"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-165/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2478,7 +2478,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-166"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-166/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2493,7 +2493,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-167"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-167/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2508,7 +2508,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-168"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-168/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2523,7 +2523,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-169"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-169/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2538,7 +2538,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-170"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-170/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2553,7 +2553,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-171"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-171/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2568,7 +2568,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-172"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-172/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2583,7 +2583,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-173"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-173/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2598,7 +2598,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-174"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-174/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2613,7 +2613,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-175"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-175/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2628,7 +2628,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-176"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-176/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2643,7 +2643,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-177"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-177/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2658,7 +2658,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-178"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-178/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2673,7 +2673,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-179"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-179/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2688,7 +2688,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-180"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-180/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2703,7 +2703,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-181"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-181/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2718,7 +2718,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-182"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-182/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2733,7 +2733,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-183"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-183/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2748,7 +2748,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-184"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-184/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2763,7 +2763,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-185"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-185/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2778,7 +2778,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-186"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-186/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2793,7 +2793,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-187"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-187/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2808,7 +2808,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-188"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-188/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2823,7 +2823,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-189"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-189/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2838,7 +2838,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-190"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-190/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2853,7 +2853,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-191"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-191/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2868,7 +2868,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-192"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-192/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2883,7 +2883,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-193"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-193/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2898,7 +2898,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-194"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-194/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2913,7 +2913,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-195"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-195/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2928,7 +2928,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-196"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-196/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2943,7 +2943,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-197"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-197/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2958,7 +2958,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-198"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-198/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2973,7 +2973,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-199"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-199/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -2988,7 +2988,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-200"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-200/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3003,7 +3003,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-201"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-201/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3018,7 +3018,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-202"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-202/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3033,7 +3033,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-203"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-203/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3048,7 +3048,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-204"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-204/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3063,7 +3063,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-205"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-205/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3078,7 +3078,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-206"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-206/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3093,7 +3093,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-207"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-207/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3108,7 +3108,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-208"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-208/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3123,7 +3123,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-209"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-209/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3138,7 +3138,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-210"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-210/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3153,7 +3153,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-211"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-211/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3168,7 +3168,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-212"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-212/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3183,7 +3183,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-213"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-213/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3198,7 +3198,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-214"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-214/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3213,7 +3213,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-215"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-215/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3228,7 +3228,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-216"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-216/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3243,7 +3243,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-217"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-217/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3258,7 +3258,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-218"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-218/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3273,7 +3273,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-219"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-219/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3288,7 +3288,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-220"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-220/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3303,7 +3303,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-221"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-221/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3318,7 +3318,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-222"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-222/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3333,7 +3333,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-223"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-223/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3348,7 +3348,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-224"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-224/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3363,7 +3363,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-225"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-225/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3378,7 +3378,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-226"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-226/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3393,7 +3393,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-227"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-227/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3408,7 +3408,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-228"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-228/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3423,7 +3423,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-229"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-229/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3438,7 +3438,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-230"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-230/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3453,7 +3453,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-231"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-231/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3468,7 +3468,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-232"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-232/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3483,7 +3483,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-233"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-233/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3498,7 +3498,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-234"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-234/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3513,7 +3513,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-235"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-235/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3528,7 +3528,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-236"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-236/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3543,7 +3543,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-237"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-237/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3558,7 +3558,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-238"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-238/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3573,7 +3573,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-239"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-239/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3588,7 +3588,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-240"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-240/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3603,7 +3603,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-241"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-241/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3618,7 +3618,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-242"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-242/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3633,7 +3633,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-243"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-243/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3648,7 +3648,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-244"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-244/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3663,7 +3663,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-245"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-245/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3678,7 +3678,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-246"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-246/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3693,7 +3693,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-247"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-247/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3708,7 +3708,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-248"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-248/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3723,7 +3723,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-249"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-249/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3738,7 +3738,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-250"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-250/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3753,7 +3753,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-251"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-251/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3768,7 +3768,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-252"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-252/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3783,7 +3783,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-253"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-253/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3798,7 +3798,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-254"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-254/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3813,7 +3813,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-255"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-255/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3828,7 +3828,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-256"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-256/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3843,7 +3843,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-257"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-257/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3858,7 +3858,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-258"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-258/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3873,7 +3873,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-259"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-259/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3888,7 +3888,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-260"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-260/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3903,7 +3903,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-261"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-261/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3918,7 +3918,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-262"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-262/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3933,7 +3933,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-263"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-263/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3948,7 +3948,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-264"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-264/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3963,7 +3963,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-265"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-265/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3978,7 +3978,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-266"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-266/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -3993,7 +3993,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-267"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-267/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4008,7 +4008,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-268"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-268/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4023,7 +4023,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-269"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-269/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4038,7 +4038,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-270"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-270/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4053,7 +4053,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-271"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-271/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4068,7 +4068,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-272"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-272/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4083,7 +4083,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-273"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-273/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4098,7 +4098,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-274"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-274/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4113,7 +4113,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-275"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-275/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4128,7 +4128,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-276"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-276/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4143,7 +4143,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-277"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-277/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4158,7 +4158,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-278"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-278/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4173,7 +4173,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-279"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-279/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4188,7 +4188,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-280"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-280/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4203,7 +4203,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-281"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-281/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4218,7 +4218,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-282"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-282/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4233,7 +4233,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-283"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-283/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4248,7 +4248,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-284"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-284/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4263,7 +4263,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-285"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-285/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4278,7 +4278,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-286"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-286/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4293,7 +4293,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-287"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-287/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4308,7 +4308,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-288"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-288/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4323,7 +4323,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-289"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-289/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4338,7 +4338,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-290"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-290/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4353,7 +4353,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-291"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-291/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4368,7 +4368,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-292"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-292/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4383,7 +4383,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-293"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-293/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4398,7 +4398,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-294"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-294/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4413,7 +4413,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-295"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-295/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4428,7 +4428,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-296"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-296/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4443,7 +4443,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-297"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-297/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4458,7 +4458,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-298"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-298/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4473,7 +4473,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-299"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-299/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4488,7 +4488,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-300"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-300/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4503,7 +4503,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-301"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-301/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4518,7 +4518,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-302"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-302/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4533,7 +4533,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-303"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-303/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4548,7 +4548,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-304"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-304/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4563,7 +4563,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-305"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-305/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4578,7 +4578,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-306"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-306/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4593,7 +4593,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-307"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-307/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4608,7 +4608,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-308"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-308/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4623,7 +4623,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-309"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-309/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4638,7 +4638,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-310"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-310/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4653,7 +4653,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-311"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-311/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4668,7 +4668,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-312"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-312/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4683,7 +4683,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-313"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-313/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4698,7 +4698,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-314"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-314/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4713,7 +4713,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-315"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-315/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4728,7 +4728,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-316"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-316/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4743,7 +4743,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-317"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-317/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4758,7 +4758,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-318"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-318/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4773,7 +4773,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-319"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-319/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4788,7 +4788,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-320"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-320/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4803,7 +4803,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-321"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-321/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4818,7 +4818,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-322"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-322/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4833,7 +4833,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-323"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-323/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4848,7 +4848,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-324"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-324/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4863,7 +4863,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-325"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-325/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4878,7 +4878,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-326"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-326/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4893,7 +4893,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-327"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-327/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4908,7 +4908,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-328"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-328/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4923,7 +4923,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-329"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-329/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4938,7 +4938,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-330"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-330/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4953,7 +4953,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-331"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-331/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4968,7 +4968,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-332"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-332/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4983,7 +4983,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-333"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-333/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -4998,7 +4998,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-334"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-334/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5013,7 +5013,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-335"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-335/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5028,7 +5028,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-336"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-336/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5043,7 +5043,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-337"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-337/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5058,7 +5058,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-338"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-338/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5073,7 +5073,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-339"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-339/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5088,7 +5088,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-340"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-340/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5103,7 +5103,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-341"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-341/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5118,7 +5118,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-342"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-342/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5133,7 +5133,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-343"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-343/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5148,7 +5148,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-344"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-344/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5163,7 +5163,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-345"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-345/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5178,7 +5178,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-346"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-346/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5193,7 +5193,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-347"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-347/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5208,7 +5208,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-348"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-348/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5223,7 +5223,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-349"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-349/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5238,7 +5238,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-350"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-350/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5253,7 +5253,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-351"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-351/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5268,7 +5268,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-352"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-352/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5283,7 +5283,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-353"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-353/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5298,7 +5298,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-354"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-354/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5313,7 +5313,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-355"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-355/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5328,7 +5328,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-356"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-356/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5343,7 +5343,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-357"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-357/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5358,7 +5358,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-358"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-358/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5373,7 +5373,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-359"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-359/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5388,7 +5388,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-360"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-360/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5403,7 +5403,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-361"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-361/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5418,7 +5418,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-362"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-362/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5433,7 +5433,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-363"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-363/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5448,7 +5448,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-364"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-364/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5463,7 +5463,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-365"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-365/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5478,7 +5478,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-366"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-366/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5493,7 +5493,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-367"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-367/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5508,7 +5508,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-368"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-368/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5523,7 +5523,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-369"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-369/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5538,7 +5538,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-370"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-370/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5553,7 +5553,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-371"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-371/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5568,7 +5568,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-372"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-372/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5583,7 +5583,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-373"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-373/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5598,7 +5598,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-374"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-374/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5613,7 +5613,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-375"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-375/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5628,7 +5628,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-376"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-376/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5643,7 +5643,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-377"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-377/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5658,7 +5658,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-378"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-378/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5673,7 +5673,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-379"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-379/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5688,7 +5688,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-380"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-380/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5703,7 +5703,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-381"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-381/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5718,7 +5718,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-382"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-382/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5733,7 +5733,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-383"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-383/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5748,7 +5748,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-384"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-384/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5763,7 +5763,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-385"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-385/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5778,7 +5778,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-386"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-386/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5793,7 +5793,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-387"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-387/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5808,7 +5808,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-388"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-388/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5823,7 +5823,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-389"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-389/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5838,7 +5838,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-390"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-390/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5853,7 +5853,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-391"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-391/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5868,7 +5868,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-392"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-392/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5883,7 +5883,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-393"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-393/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5898,7 +5898,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-394"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-394/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5913,7 +5913,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-395"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-395/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5928,7 +5928,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-396"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-396/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5943,7 +5943,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-397"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-397/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5958,7 +5958,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-398"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-398/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5973,7 +5973,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-399"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-399/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -5988,7 +5988,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-400"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-400/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6003,7 +6003,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-401"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-401/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6018,7 +6018,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-402"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-402/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6033,7 +6033,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-403"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-403/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6048,7 +6048,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-404"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-404/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6063,7 +6063,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-405"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-405/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6078,7 +6078,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-406"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-406/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6093,7 +6093,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-407"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-407/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6108,7 +6108,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-408"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-408/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6123,7 +6123,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-409"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-409/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6138,7 +6138,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-410"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-410/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6153,7 +6153,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-411"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-411/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6168,7 +6168,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-412"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-412/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6183,7 +6183,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-413"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-413/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6198,7 +6198,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-414"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-414/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6213,7 +6213,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-415"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-415/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6228,7 +6228,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-416"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-416/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6243,7 +6243,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-417"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-417/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6258,7 +6258,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-418"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-418/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6273,7 +6273,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-419"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-419/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6288,7 +6288,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-420"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-420/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6303,7 +6303,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-421"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-421/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6318,7 +6318,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-422"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-422/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6333,7 +6333,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-423"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-423/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6348,7 +6348,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-424"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-424/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6363,7 +6363,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-425"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-425/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6378,7 +6378,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-426"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-426/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6393,7 +6393,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-427"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-427/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6408,7 +6408,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-428"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-428/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6423,7 +6423,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-429"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-429/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6438,7 +6438,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-430"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-430/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6453,7 +6453,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-431"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-431/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6468,7 +6468,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-432"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-432/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6483,7 +6483,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-433"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-433/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6498,7 +6498,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-434"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-434/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6513,7 +6513,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-435"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-435/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6528,7 +6528,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-436"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-436/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6543,7 +6543,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-437"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-437/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6558,7 +6558,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-438"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-438/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6573,7 +6573,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-439"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-439/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6588,7 +6588,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-440"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-440/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6603,7 +6603,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-441"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-441/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6618,7 +6618,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-442"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-442/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6633,7 +6633,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-443"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-443/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6648,7 +6648,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-444"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-444/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6663,7 +6663,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-445"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-445/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6678,7 +6678,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-446"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-446/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6693,7 +6693,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-447"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-447/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6708,7 +6708,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-448"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-448/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6723,7 +6723,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-449"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-449/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6738,7 +6738,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-450"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-450/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6753,7 +6753,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-451"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-451/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6768,7 +6768,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-452"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-452/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6783,7 +6783,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-453"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-453/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6798,7 +6798,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-454"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-454/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6813,7 +6813,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-455"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-455/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6828,7 +6828,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-456"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-456/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6843,7 +6843,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-457"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-457/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6858,7 +6858,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-458"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-458/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6873,7 +6873,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-459"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-459/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6888,7 +6888,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-460"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-460/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6903,7 +6903,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-461"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-461/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6918,7 +6918,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-462"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-462/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6933,7 +6933,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-463"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-463/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6948,7 +6948,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-464"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-464/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6963,7 +6963,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-465"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-465/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6978,7 +6978,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-466"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-466/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -6993,7 +6993,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-467"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-467/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7008,7 +7008,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-468"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-468/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7023,7 +7023,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-469"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-469/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7038,7 +7038,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-470"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-470/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7053,7 +7053,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-471"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-471/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7068,7 +7068,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-472"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-472/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7083,7 +7083,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-473"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-473/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7098,7 +7098,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-474"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-474/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7113,7 +7113,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-475"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-475/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7128,7 +7128,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-476"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-476/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7143,7 +7143,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-477"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-477/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7158,7 +7158,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-478"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-478/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7173,7 +7173,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-479"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-479/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7188,7 +7188,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-480"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-480/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7203,7 +7203,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-481"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-481/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7218,7 +7218,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-482"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-482/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7233,7 +7233,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-483"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-483/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7248,7 +7248,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-484"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-484/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7263,7 +7263,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-485"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-485/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7278,7 +7278,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-486"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-486/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7293,7 +7293,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-487"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-487/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7308,7 +7308,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-488"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-488/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7323,7 +7323,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-489"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-489/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7338,7 +7338,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-490"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-490/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7353,7 +7353,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-491"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-491/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7368,7 +7368,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-492"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-492/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7383,7 +7383,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-493"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-493/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7398,7 +7398,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-494"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-494/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7413,7 +7413,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-495"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-495/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7428,7 +7428,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-496"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-496/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7443,7 +7443,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-497"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-497/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7458,7 +7458,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-498"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-498/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7473,7 +7473,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-499"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-499/echo-decoded"
         internal-context-pattern: "/echo-decoded"
@@ -7488,7 +7488,7 @@ app.endpoint.mappings:
     routes:
       - target-host: "http://mock-500"
         external-hosts:
-          - "edge-router-pcc"
+          - "mock-host"
     service-context-patterns:
       - external-context-pattern: "/mock-500/echo-decoded"
         internal-context-pattern: "/echo-decoded"
